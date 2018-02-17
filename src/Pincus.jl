@@ -2,7 +2,7 @@ __precompile__()
 
 module Pincus
 
-using Base.Cartesian, FastGaussQuadrature, Sobol, CLArrays, GPUArrays
+using Base.Cartesian, FastGaussQuadrature, Sobol#, CLArrays, GPUArrays
 
 export  gauss_hermite_tup,
         uniboxmaximize,
